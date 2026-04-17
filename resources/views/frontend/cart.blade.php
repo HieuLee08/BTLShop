@@ -113,7 +113,7 @@
             }).then(() => window.location.reload());
         });
     });
-
+// update
     // Xóa khỏi giỏ hàng
     document.querySelectorAll('.remove-from-cart').forEach(function(button) {
         button.addEventListener('click', function(e) {
