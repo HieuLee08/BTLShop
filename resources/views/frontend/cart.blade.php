@@ -111,7 +111,7 @@
                 },
                 body: JSON.stringify({ id: id, quantity: quantity })
             }).then(() => window.location.reload());
-        });
+        });git
     });
 // update
     // Xóa khỏi giỏ hàng

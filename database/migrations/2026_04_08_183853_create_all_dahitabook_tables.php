@@ -9,7 +9,6 @@ return new class extends Migration
     public function up()
     {
         // --- CÁC BẢNG ĐỘC LẬP (TẠO TRƯỚC) ---
-
         Schema::create('tbl_admin', function (Blueprint $table) {
             $table->integer('adminId')->autoIncrement();
             $table->string('adminName', 255);

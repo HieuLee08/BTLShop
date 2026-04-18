@@ -5,7 +5,7 @@
         <div class="container">
             <div class="form-account mb-30 mt-5">
                 <div class="container-account {{ request()->routeIs('register') ? 'right-panel-active' : '' }}" id="container-account">
-                    
+                    //checkloidangky
                     {{-- FORM ĐĂNG KÝ --}}
                     <div class="form-container sign-up-container">
                         <form action="{{ route('postRegister') }}" method="POST">
