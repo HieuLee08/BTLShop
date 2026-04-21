@@ -23,14 +23,6 @@
                     </ul>
                 </li>
 
-                {{-- Quản lý Slider --}}
-                <li><a class="menuitem">Quản lý Slide</a>
-                    <ul class="submenu">
-                        {{-- Trỏ về SliderController --}}
-                        <li><a href="{{ route('slider.index') }}">Danh sách slide</a></li>
-                    </ul>
-                </li>
-
                 {{-- Quản lý Đơn hàng --}}
                 <li><a class="menuitem">QL Đơn hàng</a>
                     <ul class="submenu">

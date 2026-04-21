@@ -7,7 +7,6 @@ use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\SliderController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\OrderController;
 
@@ -73,13 +72,6 @@ Route::prefix('admin/brand')->group(function () {
     Route::get('/', [BrandController::class, 'index'])->name('brand.index');
     Route::post('/store', [BrandController::class, 'store'])->name('brand.store');
     Route::get('/delete/{id}', [BrandController::class, 'delete'])->name('brand.delete');
-});
-
-// QUẢN LÝ SLIDER
-Route::prefix('admin/slider')->group(function () {
-    Route::get('/', [SliderController::class, 'index'])->name('slider.index');
-    Route::post('/store', [SliderController::class, 'store'])->name('slider.store');
-    Route::get('/delete/{id}', [SliderController::class, 'delete'])->name('slider.delete');
 });
 
 // QUẢN LÝ ĐƠN HÀNG
